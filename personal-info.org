@@ -1,0 +1,23 @@
+#+MACRO: FIRST    张
+#+MACRO: LAST     三
+#+MACRO: FULL     {{{FIRST}}} {{{LAST}}}
+#+MACRO: PHONE    18810100101
+#+MACRO: EMAIL    your@gmail.com
+#+MACRO: BIRTH    年龄: 21
+
+#+MACRO: HEADER \resheader{ {{{FULL}}} }{ {{{PHONE}}} }{ {{{EMAIL}}} }{ {{{BIRTH}}} }}
+
+#+LaTeX_HEADER: \usepackage{org-resume}
+#+LaTeX_HEADER: \hypersetup{hidelinks}
+#+LaTeX_CLASS_OPTIONS: [letterpaper]
+#+LANGUAGE: cn
+
+#+LaTeX_HEADER: \usepackage{paralist}
+#+LaTeX_HEADER: \let\itemize\compactitem
+
+# Palatino
+#+LaTeX_HEADER: \usepackage[T1]{fontenc}
+#+LaTeX_HEADER: \usepackage{mathpazo}
+#+LaTeX_HEADER: \linespread{1.35}
+#+LaTeX_HEADER: \usepackage[scaled]{helvet}
+#+LaTeX_HEADER: \usepackage{courier}

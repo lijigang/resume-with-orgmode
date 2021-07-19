@@ -1,0 +1,14 @@
+
+** 介绍
+在 Orgmode 中写些简历内容, 导出成简洁版本的 PDF.
+
+文本和样式相分离
+
+** 截图
+
+ #+attr_org: width 600px
+ [[file:resume-demo.png][demo]]
+
+** Thanks:
+
+Learn from: https://github.com/doy/resume
